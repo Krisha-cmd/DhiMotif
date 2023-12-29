@@ -1,0 +1,88 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+        to top left,
+        #1e364c 0%,
+        black 100%
+      );
+    display: flex;
+    flex-direction: column;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pacifico&display=swap');
+
+.home-header{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: x-large;
+    position: absolute;
+    top:50px;
+    left:25vw;
+    height:106px;
+    color: #71E0F4;
+}
+
+.home-content{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-message{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-left: 15vw;
+}
+
+.home-image{
+    height: 70%;
+    width: 40%;
+    margin-top: 100px;
+    background-image: url('/public/images/avatar.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.about-me{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #71E0F4;
+    margin-top: 20px;
+    font-size: large;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.introduction{
+    width: 800px;
+    margin-top: 60px;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-media-strip {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    
+  }
+  
+  .social-media-strip a {
+    text-decoration: none;
+    color: #e2c550;
+    margin-right: 20px;
+    font-size: 36px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media-strip a:hover {
+    color: #917e34;
+  }
+  
