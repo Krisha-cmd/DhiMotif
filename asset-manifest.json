@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.css": "/DhiMotif/static/css/main.4e771e35.css",
-    "main.js": "/DhiMotif/static/js/main.0993fd5b.js",
+    "main.css": "/DhiMotif/static/css/main.0e51ba6b.css",
+    "main.js": "/DhiMotif/static/js/main.02922d72.js",
     "static/js/496.fad8b9ce.chunk.js": "/DhiMotif/static/js/496.fad8b9ce.chunk.js",
     "static/media/avatar.png": "/DhiMotif/static/media/avatar.ef5d41611bd5ee39a11c.png",
-    "static/media/Dhimotif-unscreen.gif": "/DhiMotif/static/media/Dhimotif-unscreen.29f47b1c568a5027b254.gif",
+    "static/media/jahnvi-shah-unscreen.gif": "/DhiMotif/static/media/jahnvi-shah-unscreen.cb2dff21cc0c50e2d999.gif",
     "static/media/navbar.png": "/DhiMotif/static/media/navbar.a36d0047cb4eb7dc4655.png",
+    "static/media/consanos.jpg": "/DhiMotif/static/media/consanos.507c8ecc887d7d28208f.jpg",
+    "static/media/published works.jpg": "/DhiMotif/static/media/published works.e23c1251308cb9886ea8.jpg",
     "static/media/dancing.png": "/DhiMotif/static/media/dancing.9457ccd8c7b552106c5a.png",
     "static/media/logo.svg": "/DhiMotif/static/media/logo.5f67100a395b0a0402e8.svg",
+    "static/media/Wizard.jpg": "/DhiMotif/static/media/Wizard.65ebcd94c96d498d6978.jpg",
+    "static/media/dreamcatchers.webp": "/DhiMotif/static/media/dreamcatchers.e5cbd71589dae56191b1.webp",
     "static/media/interior.png": "/DhiMotif/static/media/interior.cbc0e3e4ce86a827c0c1.png",
+    "static/media/thespell.webp": "/DhiMotif/static/media/thespell.0f6f19e0d91c82e3aec9.webp",
     "static/media/design.png": "/DhiMotif/static/media/design.a7f5a47df34c96515d6e.png",
+    "static/media/youmeandlove.jpg": "/DhiMotif/static/media/youmeandlove.3c6f26310e14db01f4c0.jpg",
     "static/media/writing.png": "/DhiMotif/static/media/writing.9dce403075bdbb2525ba.png",
+    "static/media/theperfectmelange.jpg": "/DhiMotif/static/media/theperfectmelange.ecda27139ee41cf40988.jpg",
+    "static/media/loveyoutoinfinity.jpg": "/DhiMotif/static/media/loveyoutoinfinity.62066447016c5e6606a9.jpg",
+    "static/media/slick.svg": "/DhiMotif/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/DhiMotif/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/DhiMotif/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/DhiMotif/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DhiMotif/index.html",
-    "main.4e771e35.css.map": "/DhiMotif/static/css/main.4e771e35.css.map",
-    "main.0993fd5b.js.map": "/DhiMotif/static/js/main.0993fd5b.js.map",
+    "main.0e51ba6b.css.map": "/DhiMotif/static/css/main.0e51ba6b.css.map",
+    "main.02922d72.js.map": "/DhiMotif/static/js/main.02922d72.js.map",
     "496.fad8b9ce.chunk.js.map": "/DhiMotif/static/js/496.fad8b9ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e771e35.css",
-    "static/js/main.0993fd5b.js"
+    "static/css/main.0e51ba6b.css",
+    "static/js/main.02922d72.js"
   ]
 }
