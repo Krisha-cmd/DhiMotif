@@ -31,7 +31,7 @@ const Hobbies = () => {
 
   return (
     <div className='hobbies'>
-        <div className='hobbies-header'>Hobbies</div>
+        <div className='hobbies-header'>My Hobbies</div>
         <div className='hobbies-content'>
             <animated.div style={{ ...styles }} className='hobbies-card' id='writing'/>
             <animated.div style={{ ...styles1 }} className='hobbies-card' id='logo-design'/>

@@ -1,10 +1,10 @@
 .navbar{
     width: 63vw;
     height: 120px;
-    position: fixed;
+    position: absolute;
     z-index: 10;
     top:10px;
-    left:37vw;
+    left:35vw;
     background-image: url('/public/images/navbar.png');
     display: flex;
     flex-direction: row;
@@ -80,12 +80,12 @@
   }
 
   .dhimotif{
-    position: fixed;
-    top: -20px;
-    left:40px;
-    height: 140px;
-    width: 160px;
-    background-image: url(/public/images/Dhimotif-unscreen.gif);
+    position: absolute;
+    top: 40px;
+    left:20px;
+    height: 80px;
+    width: 120px;
+    background-image: url(/src/images/logo3.png);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;

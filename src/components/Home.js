@@ -38,7 +38,7 @@ const Home = () => {
                 <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
             </div>
         </div>
-        <animated.div style={{ ...styles }} className='home-image'/>
+        <animated.div  className='home-image'/>
       </div>
     </div>
   )

@@ -12,14 +12,15 @@
 }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .hobbies-header{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: x-large;
+    font-size: xx-large;
     position: absolute;
     top:50px;
-    left:25vw;
+    left:15vw;
     height:106px;
     color: #71E0F4;
 }

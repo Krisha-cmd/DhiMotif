@@ -14,13 +14,15 @@
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pacifico&display=swap');
 
 .home-header{
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: x-large;
     position: absolute;
-    top:50px;
-    left:25vw;
-    height:106px;
-    color: #71E0F4;
+    top: 0px;
+    left:15vw;
+    height: 140px;
+    width: 300px;
+    background-image: url(/public/images/jahnvi-shah-unscreen.gif);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .home-content{
@@ -37,7 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
 
 .home-image{
@@ -86,3 +88,10 @@
     color: #917e34;
   }
   
+  @media (max-width:1367px) {
+
+    .introduction{
+      font-size: 4rem;
+    }
+    
+  }
