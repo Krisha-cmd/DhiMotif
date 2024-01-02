@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DhiMotif/static/css/main.10757ccc.css",
-    "main.js": "/DhiMotif/static/js/main.d00d0b50.js",
+    "main.css": "/DhiMotif/static/css/main.7fa32bc6.css",
+    "main.js": "/DhiMotif/static/js/main.3c09c4d0.js",
     "static/js/496.9a07641d.chunk.js": "/DhiMotif/static/js/496.9a07641d.chunk.js",
     "static/media/avatar.png": "/DhiMotif/static/media/avatar.ef5d41611bd5ee39a11c.png",
     "static/media/jahnvi-shah-unscreen.gif": "/DhiMotif/static/media/jahnvi-shah-unscreen.cb2dff21cc0c50e2d999.gif",
@@ -31,12 +31,12 @@
     "static/media/slick.ttf": "/DhiMotif/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/DhiMotif/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DhiMotif/index.html",
-    "main.10757ccc.css.map": "/DhiMotif/static/css/main.10757ccc.css.map",
-    "main.d00d0b50.js.map": "/DhiMotif/static/js/main.d00d0b50.js.map",
+    "main.7fa32bc6.css.map": "/DhiMotif/static/css/main.7fa32bc6.css.map",
+    "main.3c09c4d0.js.map": "/DhiMotif/static/js/main.3c09c4d0.js.map",
     "496.9a07641d.chunk.js.map": "/DhiMotif/static/js/496.9a07641d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10757ccc.css",
-    "static/js/main.d00d0b50.js"
+    "static/css/main.7fa32bc6.css",
+    "static/js/main.3c09c4d0.js"
   ]
 }
