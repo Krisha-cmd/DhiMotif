@@ -12,6 +12,13 @@ const Testimonials = () => {
         speed: 500,
         slidesToShow: 3, // Display three images at a time
         slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 768, // Adjust the breakpoint as needed
+              settings: {
+                slidesToShow: 1,
+              },
+            }]
       };
     
       const testimonies = [

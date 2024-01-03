@@ -8,6 +8,8 @@ import Publications from './components/Publications.js';
 import Scrolltotop from './components/Scrolltotop.js';
 import { Element } from 'react-scroll';
 import Designs from './components/Designs.js';
+import Achievements from './components/Achievements.js';
+import Contact from './components/Contact.js';
 
 const App = () => {
   return (
@@ -17,14 +19,21 @@ const App = () => {
       <Background/>
       <Home/>
       <Hobbies/>
-      <Testimonials/>
+       <Testimonials/>
       <Element name="publications">
       <Publications/>
       </Element>
       <Element name="designs">
       <Designs/>
       </Element>
+      <Element name="achievements">
+      <Achievements/>
+      </Element>
+      <Element name='contact'>
+        <Contact/>
+      </Element> 
     </div>
+
   );
 };
 

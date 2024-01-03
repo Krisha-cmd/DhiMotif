@@ -10,6 +10,8 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    
+    transition: transform 0.3s ease-in-out;
 }
 
 .nav-content{
@@ -34,9 +36,10 @@
 
 .icon{
     margin-right: 20px;
-    width: 50px;
+    width: 90px;
     height: 70px;
-    background-image: url('/public/images/logo.svg');
+    /* background-image: url('/public/images/logo.svg'); */
+    background-image: url('/src/images/logo3.png');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -79,17 +82,11 @@
     transition: transform 0.25s ease-out;
   }
 
-  .dhimotif{
-    position: absolute;
-    top: 40px;
-    left:20px;
-    height: 80px;
-    width: 120px;
-    background-image: url(/src/images/logo3.png);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-}
+  .menu-toggle{
+    display: none;
+  }
+
+
 
 @-webkit-keyframes rotate-center {
     0% {
@@ -101,3 +98,58 @@
               transform: rotate(360deg);
     }
   }
+
+
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block; /* Show the toggle button on small screens */
+      left: 10px;
+      top:26px;
+      position: fixed;
+      font-size: 24px;
+      z-index: 30;
+      border: 0;
+      color: #e2c550;
+      background: none;
+    }
+    .navbar{
+      /* display: none; */
+      position: fixed;
+      background-color: #958236;
+      border-right:4px solid #e2c550 ;
+      height: 100vh;
+      width:50vw;
+      position: fixed;
+      left: 0;
+      top: 0;
+      max-width: 0;
+      background-image: none;
+      transition: max-width 0.3s ease-in-out;
+
+    }
+    .visible {
+      
+      max-width: 100%;
+    }
+    .nav-content.visible{
+      display: flex;
+      opacity: 1;
+    }
+    .icon{
+      display: none;
+    }
+    .nav-content{
+      display: none;
+      transition: opacity 0.3s ease-in-out;
+      opacity: 0;
+      height: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .nav-button{
+      margin:10px 0;
+    }
+    
+  }
+  

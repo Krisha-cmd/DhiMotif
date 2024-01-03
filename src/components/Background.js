@@ -1,8 +1,10 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
+import './Background.css'
 import { loadSlim } from "tsparticles-slim"; 
 
 const Background = () => {
+    
     const particlesInit = useCallback(async engine => {
         console.log(engine);
         await loadSlim(engine);

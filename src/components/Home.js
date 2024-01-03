@@ -16,8 +16,9 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <div className='home-header'>Jahnvi Shah</div>
-      <div className='home-content'>
+      <div className='dhimotif'/>
+      <div className='home-header'></div>
+       <div className='home-content'>
         <div className='home-message'>
             <div className='introduction'>Jai Jinendra! <br/>
             Hello "Dhi" Amantes </div>
@@ -39,7 +40,7 @@ const Home = () => {
             </div>
         </div>
         <animated.div  className='home-image'/>
-      </div>
+      </div> 
     </div>
   )
 }

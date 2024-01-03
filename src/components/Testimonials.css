@@ -105,3 +105,19 @@
   .test-comment{
     display: none;
   }
+
+  @media (max-width:768px){
+    .testimonials{
+      align-items: center;
+      justify-content: center;
+    }
+    .image-slider-container{
+      width: 80vw;
+      height: 60vh;
+      justify-content: center;
+    }
+    .slider-item{
+    .card{
+      width:80%;
+    }}
+  }

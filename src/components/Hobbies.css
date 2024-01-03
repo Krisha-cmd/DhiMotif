@@ -61,3 +61,23 @@
 .hobbies-card:hover{
     filter:brightness(0.5)
 }
+
+@media (max-width: 768px) {
+    .hobbies{
+        height: auto;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .hobbies-content{
+        margin: 120px 0;
+        height: 40%;
+        display: grid;
+        row-gap: 0;
+        grid-template-columns: 1fr 1fr;
+    }
+    .hobbies-card{
+        height: 200px;
+        width:160px;
+        margin: 0 10px;
+    }
+}

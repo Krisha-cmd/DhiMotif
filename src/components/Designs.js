@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import './Designs.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -10,6 +10,29 @@ import img4 from '../images/invite4.jpg'
 import logo1 from '../images/logo1.jpg'
 import logo2 from '../images/logo2.jpg'
 import logo3 from '../images/logo3.png'
+import int1 from '../images/int1.jpg'
+import int2 from '../images/int2.jpg'
+import int3 from '../images/int3.jpg'
+import int4 from '../images/int4.jpg'
+import img5 from '../images/int5.jpg'
+import img6 from '../images/int6.jpg'
+import img7 from '../images/int7.jpg'
+import img8 from '../images/int8.jpg'
+import img9 from '../images/int9.jpg'
+import img10 from '../images/int10.jpg'
+import img11 from '../images/int11.jpg'
+import img12 from '../images/int12.jpg'
+import img13 from '../images/int13.jpg'
+import img14 from '../images/int14.jpg'
+import img15 from '../images/int15.jpg'
+import img16 from '../images/int16.jpg'
+import img17 from '../images/int17.jpg'
+import img18 from '../images/int18.jpg'
+import img19 from '../images/int19.jpg'
+import img20 from '../images/int20.jpg'
+import img21 from '../images/int21.jpg'
+
+
 
 const Designs = () => {
     const sliderSettings = {
@@ -18,6 +41,7 @@ const Designs = () => {
         speed: 500,
         slidesToShow: 3, // Display three images at a time
         slidesToScroll: 1,
+        
       };
 
     const sliderSettings1 = {
@@ -35,7 +59,11 @@ const Designs = () => {
         logo1, logo2, logo3, 
       ];
 
+      const images = [
+        int1,  int2, int3, int4, img5, img6, img7, img8, img9, img10, img11,  img12, img13, img14, img15, img16, img17, img18, img19, img20, img21
+      ];
 
+      const sliderRef = useRef(null);
 
 
   return (
@@ -80,6 +108,23 @@ const Designs = () => {
             </Slider>
             </div>
         </div>
+        
+        <div className='interior'>
+            <div className='interior-intro'>
+           Interior Designs</div>
+            <div className="interior-container" ref={sliderRef}>
+                {images.map((image) => {
+                return (
+                    <img
+                    className="image"
+                    alt="sliderImage"
+                    src={image}
+                    />
+                );
+                })}
+            </div>
+        </div>
+
     </div>
   )
 }
