@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DhiMotif/static/css/main.c4a951c6.css",
-    "main.js": "/DhiMotif/static/js/main.85fd60de.js",
+    "main.css": "/DhiMotif/static/css/main.36c6ee09.css",
+    "main.js": "/DhiMotif/static/js/main.43654c25.js",
     "static/js/496.9a07641d.chunk.js": "/DhiMotif/static/js/496.9a07641d.chunk.js",
     "static/media/avatar.png": "/DhiMotif/static/media/avatar.ef5d41611bd5ee39a11c.png",
     "static/media/spectrum.jpeg": "/DhiMotif/static/media/spectrum.54eb3aa550f7c9e489cf.jpeg",
@@ -59,12 +59,12 @@
     "static/media/slick.ttf": "/DhiMotif/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/DhiMotif/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DhiMotif/index.html",
-    "main.c4a951c6.css.map": "/DhiMotif/static/css/main.c4a951c6.css.map",
-    "main.85fd60de.js.map": "/DhiMotif/static/js/main.85fd60de.js.map",
+    "main.36c6ee09.css.map": "/DhiMotif/static/css/main.36c6ee09.css.map",
+    "main.43654c25.js.map": "/DhiMotif/static/js/main.43654c25.js.map",
     "496.9a07641d.chunk.js.map": "/DhiMotif/static/js/496.9a07641d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4a951c6.css",
-    "static/js/main.85fd60de.js"
+    "static/css/main.36c6ee09.css",
+    "static/js/main.43654c25.js"
   ]
 }
