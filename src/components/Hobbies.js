@@ -1,42 +1,41 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import './Hobbies.css'
-import { useSpring, animated, config } from 'react-spring';
+import icon1 from '../images/ic1.png'
+import icon2 from '../images/ic2.png'
+import icon3 from '../images/ic3.png'
+import icon4 from '../images/ic4.png'
+import icon5 from '../images/ic5.png'
+import icon7 from '../images/ic7.png'
+import icon8 from '../images/ic8.png'
+import icon9 from '../images/ic9.png'
 
 const Hobbies = () => {
-    const styles = useSpring({
-        loop: { reverse: true },
-        from: { y: 25 },
-        to: { y: -25 },
-        config: config.molasses,
-      });
-    const styles1 = useSpring({
-        loop: { reverse: true },
-        from: { y: -15 },
-        to: { y: 30 },
-        config: config.molasses,
-      });
-      const styles2 = useSpring({
-        loop: { reverse: true },
-        from: { y: 30 },
-        to: { y: -20 },
-        config: config.molasses,
-      });
-      const styles3 = useSpring({
-        loop: { reverse: true },
-        from: { y: -20 },
-        to: { y: 35 },
-        config: config.molasses,
-      });
+
+  const icons=[icon1, icon2,icon3,icon4,icon5,icon7,icon8,icon9]
 
   return (
     <div className='hobbies'>
-        <div className='hobbies-header'>My Hobbies</div>
+        <div className='hobbies-header'>About Me</div>
         <div className='hobbies-content'>
-            <animated.div style={{ ...styles }} className='hobbies-card' id='writing'/>
-            <animated.div style={{ ...styles1 }} className='hobbies-card' id='logo-design'/>
-            <animated.div style={{ ...styles2 }} className='hobbies-card' id='interior-design'/>
-            <animated.div style={{ ...styles3 }} className='hobbies-card' id='dancing'/>
+        <div className='about-me-card'>
+          <div className='about-me-info'>
+          <h1>Who Am I?</h1>
+          <p>Blessed in the moonlight I 1st opened my eyes on 15th April. As the years passed I was encouraged to thrown many skills thanks to that I now know my hobbies, I became a bharatnatyam dancer, a karate kid and gained state level recognition in chess competitions at a very early age while I also represented our nation in European Countries in the Cosmopolitan Festival. I also graced my writings with calligraphy.</p>
+<br/>
+<p>Maturing into another phase of life bba was just the degree to earn while I raised my knowledge through enrichment courses in Psycology, and UI/Ux designing from well known colleges and companies. Fantasy narrations or day dreaming helped me become an author and designer. I feel grateful as the nation recognised it and awarded my works. I am thrilled to say that's not all, I got enlightened spiritual and became a reiki healer and a tarot reader.</p>
+        </div>
+        <div className='about-me-icons'>
+        {icons.map((icon, index) => (
+          <img
+            src={icon}
+            key={index}
+            className="about-me-icon"
+          />
+        ))}
+        </div>
+        </div>
+
         </div>
     </div>
   )

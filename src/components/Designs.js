@@ -1,4 +1,5 @@
 import React, {useRef} from 'react'
+import { Element } from 'react-scroll';
 import './Designs.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -9,10 +10,15 @@ import img3 from '../images/invite3.jpg'
 import img4 from '../images/invite4.jpg'
 import logo1 from '../images/logo1.jpg'
 import logo2 from '../images/logo2.jpg'
-import logo3 from '../images/logo3.png'
-import int1 from '../images/int1.jpg'
+import logo3 from '../images/logo4.jpg'
+import logo4 from '../images/logo5.jpg'
+import logo5 from '../images/logo6.jpg'
+import logo6 from '../images/logo7.jpg'
+import logo7 from '../images/logo8.jpg'
+import inv5 from '../images/invite5.jpg'
+import inv6 from '../images/invite6.jpg'
+import inv7 from '../images/invite7.jpg'
 import int2 from '../images/int2.jpg'
-import int3 from '../images/int3.jpg'
 import int4 from '../images/int4.jpg'
 import img5 from '../images/int5.jpg'
 import img6 from '../images/int6.jpg'
@@ -20,10 +26,8 @@ import img7 from '../images/int7.jpg'
 import img8 from '../images/int8.jpg'
 import img9 from '../images/int9.jpg'
 import img10 from '../images/int10.jpg'
-import img11 from '../images/int11.jpg'
 import img12 from '../images/int12.jpg'
 import img13 from '../images/int13.jpg'
-import img14 from '../images/int14.jpg'
 import img15 from '../images/int15.jpg'
 import img16 from '../images/int16.jpg'
 import img17 from '../images/int17.jpg'
@@ -31,6 +35,7 @@ import img18 from '../images/int18.jpg'
 import img19 from '../images/int19.jpg'
 import img20 from '../images/int20.jpg'
 import img21 from '../images/int21.jpg'
+import img22 from '../images/ach22.jpg'
 
 
 
@@ -53,14 +58,14 @@ const Designs = () => {
       };
     
       const designs=[
-        img1, img2, img3, img4
+        img1, img2, img3, img4, inv5, inv6, inv7
       ];
       const logos=[
-        logo1, logo2, logo3, 
+        logo4,logo5, logo1, logo2, logo3, logo6,logo7
       ];
 
       const images = [
-        int1,  int2, int3, int4, img5, img6, img7, img8, img9, img10, img11,  img12, img13, img14, img15, img16, img17, img18, img19, img20, img21
+          img22, int2, int4, img5, img6, img7, img8, img9, img10,  img12, img13, img15, img16, img17, img18, img19, img20, img21
       ];
 
       const sliderRef = useRef(null);
@@ -69,12 +74,13 @@ const Designs = () => {
   return (
     <div className='designs'>
         <div className='designs-header'>Designs</div>
+        <Element name='logo-design'>
         <div className='designs-content'>
             <div className="design-slider-container">
             <Slider {...sliderSettings}>
-                {designs.map((design) => (
-                    <div className="design-card">
-                        <img src={design} alt={"invite"} className='design-image'/>
+                {designs.map((design, index) => (
+                    <div className="design-card" key={index}>
+                        <img key={index} src={design} alt={"invite"} className='design-image'/>
                         </div>
                 ))}
             </Slider>
@@ -100,22 +106,24 @@ const Designs = () => {
             </div>
             <div className="design-slider-container">
             <Slider {...sliderSettings1}>
-                {logos.map((logo) => (
-                    <div className="logos-card">
-                        <img src={logo} alt={"logos"} className='logos-image'/>
+                {logos.map((logo, index) => (
+                    <div className="logos-card" key={index}>
+                        <img key={index } src={logo} alt={"logos"} className='logos-image'/>
                         </div>
                 ))}
             </Slider>
             </div>
         </div>
-        
+        </Element>
+        <Element name="interior-design">
         <div className='interior'>
             <div className='interior-intro'>
            Interior Designs</div>
             <div className="interior-container" ref={sliderRef}>
-                {images.map((image) => {
+                {images.map((image,index) => {
                 return (
                     <img
+                    key={index}
                     className="image"
                     alt="sliderImage"
                     src={image}
@@ -124,7 +132,7 @@ const Designs = () => {
                 })}
             </div>
         </div>
-
+        </Element>
     </div>
   )
 }

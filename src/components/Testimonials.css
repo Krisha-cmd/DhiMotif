@@ -16,6 +16,7 @@
 }
 
 .testimonials-header{
+  z-index:3;
     font-family: 'IBM Plex Mono', monospace;
     font-size: xx-large;
     position: absolute;
@@ -26,6 +27,8 @@
 }
 
 .image-slider-container {
+  z-index:3;
+    width:80vw ;
     max-width: 1000px;
     max-height: 100%;
     margin: 10%;
@@ -39,9 +42,9 @@
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
       padding: 20px;
       text-align: center;
-      height: 60vh;
+      max-height: 70vh;
       margin: 0 6px;
-      width:18vw;
+      max-width:18vw;
       transition: transform 0.3s ease-in-out;
       background-color: #e2c5505f;
   
@@ -112,12 +115,13 @@
       justify-content: center;
     }
     .image-slider-container{
-      width: 80vw;
+      max-width: 80vw;
       height: 60vh;
       justify-content: center;
     }
     .slider-item{
     .card{
-      width:80%;
+      max-width:80%;
     }}
   }
+

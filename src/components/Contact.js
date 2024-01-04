@@ -1,6 +1,7 @@
 // ContactPage.js
 import React from 'react';
 import './Contact.css';
+import logo from '../images/logo3.png'
 import { withGoogleMap, GoogleMap } from 'react-google-maps';
 
 
@@ -26,8 +27,7 @@ const Contact = () => {
         <p>Email: <span onClick={handleEmailClick}>{emailAddress}</span></p>
         <p>Address: <a href={`https://www.google.com/maps/place/${encodeURIComponent(address)}`} target="_blank" rel="noopener noreferrer">{address}</a></p>
         </div>
-        <div className='byebye'>
-        </div>
+        <img className='byebye'src={logo}/>
         </div>
     </div>
   );

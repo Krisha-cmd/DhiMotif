@@ -9,15 +9,15 @@ import dance from '../images/dance.jpg'
 import spectrum from '../images/spectrum.jpeg'
 
 const achievements = [
-    { image: img2, image1:dance, title: 'Hey! Dearest Stranger', description: 'Another book about...' },
-    { image: chess, image1:img1, title: 'The Perfect Melange', description: 'A book about...' },
-    { image: img3, image1:img3, title: 'Dreamcatchers', description: 'Yet another book about...' },
-    { image: spectrum, image1:img4, title: 'You, Me and Love', description: 'Yet another book about...' }
+  { image: img2, image1:dance, title: 'International Folk Dancing', description: 'Guess what? I love dancing! I am a bharatnatyam dancer and had the opportunity to represent India in kavala Greece and TKB Poland!' },
+  { image: chess, image1:img1, title: 'Chess Competition Winner!', description: 'Yes! Along with writing I am also a big chess enthusiast! I have also played and won in chess competitions!' },
+    { image: img3, image1:img3, title: 'National Patriotic Competition', description: 'Ding Ding! Guess who was a runner up in a national level patriotic competition? Me! Why not use my writing skills for patriotism?' },
+    { image: spectrum, image1:img4, title: 'Spectrum Budding Writer Award', description: 'I was given this award for my contributions as a writer in 2021. I am really grateful for the opportunity and the recognition provided with it!' }
   
   ];
 
 const Achievements = () => {
-    const [selectedAchievement, setSelectedAchievement] = useState(achievements[0]);
+    const [selectedAchievement, setSelectedAchievement] = useState(achievements[3]);
       
     const handleAchievementClick = (achievement) => {
       setSelectedAchievement(achievement);

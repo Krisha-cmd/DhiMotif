@@ -16,9 +16,10 @@
 
 /* ContactPage.css */
 .contact-container {
+  z-index:3;
     width:60%;
     max-width: 800px;
-    height: 70%;
+    height: 60%;
     margin: 50px auto;
     padding: 20px;
     background: linear-gradient(
@@ -68,11 +69,9 @@
 }
 
 .byebye{
-    background-image: url('/src/images/logo3.png');
-    width: 50%;
-    background-size: cover;
-    background-position: center;
-    height: 60%;
+  /* filter:saturate(0.5); */
+    height:70%;
+  width: auto;
 }
 
   @media (max-width: 768px) {
@@ -99,6 +98,7 @@
 
     }
     .byebye{
-      width: 100%;
+      width: 80%;
+      height: auto;
     }
   }

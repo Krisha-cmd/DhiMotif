@@ -13,8 +13,30 @@
     align-items: center;
 }
 
+#grid-item6 {
+  /* animation: scaleAnimation 1.8s infinite; */
+  border: 2px solid #e2c550;
+}
+
+#grid-item7{
+  /* animation: scaleAnimation 2s infinite; */
+  border: 2px solid #e2c550;
+}
+
+@keyframes scaleAnimation {
+  0% {
+      transform: scale(1); /* Initial scale */
+  }
+  50% {
+      transform: scale(1.02); /* Scale up to 1.1 at 50% of the animation */
+  }
+  100% {
+      transform: scale(1); /* Back to the original scale at the end of the animation */
+  }
+}
 
 .color-gallery-container {
+  z-index:3;
     position: relative;
     margin-top: 100px;
     display: flex;
@@ -32,18 +54,53 @@
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pacifico&display=swap');
 
   .grid-container-a {
+    
     display: grid;
-    width: 40%;
+    width: 30%;
     height: 100%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    margin-right: 10%;
+    margin: auto;
+    /* margin-right: 10%; */
+    position: relative;
+    span{
+      top:-40px;
+      font-size: large;
+      font-family: 'Poppins', monospace;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      color: #e2c550;
+    }
+  }
+
+  .grid-container-c {
+    display: grid;
+    width: 10%;
+    height: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: auto;
+    /* margin-right: 10%; */
+
+    position: relative;
+    span{
+      top:-40px;
+      font-size: large;
+      font-family: 'Poppins', monospace;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      color: #e2c550;
+    }
   }
   
   .grid-item {
     width: 100%;
     height: 100%;
+    max-height: 190px;
     cursor: pointer;
+    box-shadow: 2px 2px 2px #e2c550;
     object-fit: cover;
     transition: 0.3s ease-in-out;
   }
@@ -55,6 +112,7 @@
   .selected-color-info {
     flex: 1;    
     margin-left: 20px;
+    margin: 40px 60px;
   }
   
   .selected-color-box {
@@ -64,8 +122,11 @@
   }
 
   .selected-book{
+    margin:auto;
     width: 30%;
   }
+
+  
   
   .info {
     display: flex;
@@ -80,13 +141,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
+    margin: auto;
+    margin-left: 10%;
     font-family: 'Poppins', sans-serif;
    
   }
 
   .infomatics h2{
-    margin-bottom: 20%;
+    margin: auto;
+    margin-bottom: 10%;
     
   }
   
@@ -100,22 +163,114 @@
     color: #71E0F4;
 }
 
+
+@media(min-width:1919px){
+  .grid-container-a{
+    width: 32%;
+  }
+  .grid-container-c{
+    width:11%
+  }
+  .grid-item{
+    max-height: 100%;
+  }
+}
+@media (max-width:1081px){
+  .publications{
+    span{
+      font-size: medium;
+    }
+
+  }
+  .infomatics{
+    
+    width: 90%;
+    margin: auto;
+    span{
+      text-align: center;
+      width:80%;
+    }
+    h2{
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 11px;
+    }
+    
+  }
+  .grid-container-a, .grid-container-c{
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
+  .grid-container-c{
+    margin:0;
+    min-width:120px
+  }
+  .grid-item{
+    height: 140px;
+    width: auto;
+    margin: auto;
+    max-width: 85px;
+  }
+
+  .infomatics{
+    margin: 0;
+    margin-left: 30px;
+    p{
+      width: 100%;
+    }
+  }
+
+}
 @media (max-width:768px){
+  .publications{
+    height: auto;
+    width: 100vw;
+  }
+  .grid-container-c {
+    
+    height: auto;
+    width: 80%;
+    margin:auto;
+    /* margin-bottom: 30px; */
+    margin-top:50px;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .grid-item{
+    width: auto;
+    max-height: 180px;
+  }
   .color-gallery-container{
+    margin:auto;
+    margin-top: 120px;
+    margin-bottom: 60px;
     flex-direction: column-reverse;
-    height: 72%;
+    height: auto;
+    width: 80vw;
     padding: 20px;
   }
   .grid-container-a{
     
-    height: 50%;
+    height: auto;
     width: 100%;
     margin:auto;
     margin-bottom: 10px;
+
+    .grid-item{
+      width:100%;
+      height: auto;
+      max-height: 160px;
+    }
   }
   .selected-color-info{
     width: 100%;
     height: 50%;
+    margin: 50px auto;
   }
   .info{
     width: 100%;
@@ -127,19 +282,22 @@
     height: 90%;
     margin-right: 10px;
   }
-
+  
   .selected-color-box{
+    max-height: 170px;
     margin-top: 30%;
   }
 
   .infomatics{
-    font-size: 12px;
-    margin-bottom: 0;
+    font-size: 8px;
+    width: 80%;
+    margin: auto;
     span{
       text-align: center;
       width:80%;
     }
     h2{
+      font-size: 12px;
       margin-bottom: 10px;
     }
   }

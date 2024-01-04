@@ -16,7 +16,7 @@
 
 .nav-content{
     width: 90%;
-    max-width: 50vw;
+    max-width: 48vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -36,10 +36,10 @@
 
 .icon{
     margin-right: 20px;
-    width: 90px;
+    width: 50px;
     height: 70px;
     /* background-image: url('/public/images/logo.svg'); */
-    background-image: url('/src/images/logo3.png');
+    background-image: url('/src/images/logo.svg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@
 .nav-button{
     background:none;
     border: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Radley', sans-serif;
     font-size: larger;
     text-decoration: none;
     cursor: pointer;
@@ -113,34 +113,40 @@
       background: none;
     }
     .navbar{
-      /* display: none; */
       position: fixed;
       background-color: #958236;
-      border-right:4px solid #e2c550 ;
       height: 100vh;
       width:50vw;
       position: fixed;
       left: 0;
       top: 0;
+      border:0;
       max-width: 0;
       background-image: none;
       transition: max-width 0.3s ease-in-out;
 
     }
+
+    .navbar.visible{
+      border-right:4px solid #e2c550 ;
+
+    }
     .visible {
       
+      visibility: visible;
       max-width: 100%;
     }
     .nav-content.visible{
-      display: flex;
+      transition: opacity 0.3s ease-in-out;
+      visibility: visible;
       opacity: 1;
     }
     .icon{
       display: none;
     }
     .nav-content{
-      display: none;
-      transition: opacity 0.3s ease-in-out;
+      visibility: hidden;
+      transition: opacity 0.3s ease-in-out, visibility 0.5s ease-in-out;
       opacity: 0;
       height: 100%;
       flex-direction: column;
@@ -153,3 +159,14 @@
     
   }
   
+
+  @media (max-width:1080px){
+    .icon{
+      margin-left: 20px;
+    }
+    
+    .nav-content{
+      font-size: 14px;
+      max-width: 40vw;
+    }
+  }
