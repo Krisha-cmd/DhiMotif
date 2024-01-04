@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DhiMotif/static/css/main.3f66f45d.css",
-    "main.js": "/DhiMotif/static/js/main.923a3559.js",
+    "main.css": "/DhiMotif/static/css/main.edb9b3bb.css",
+    "main.js": "/DhiMotif/static/js/main.13ea0f45.js",
     "static/js/496.9a07641d.chunk.js": "/DhiMotif/static/js/496.9a07641d.chunk.js",
     "static/media/avatar.png": "/DhiMotif/static/media/avatar.ef5d41611bd5ee39a11c.png",
     "static/media/spectrum.jpeg": "/DhiMotif/static/media/spectrum.54eb3aa550f7c9e489cf.jpeg",
@@ -46,7 +46,6 @@
     "static/media/thespell.webp": "/DhiMotif/static/media/thespell.0f6f19e0d91c82e3aec9.webp",
     "static/media/youmeandlove.jpg": "/DhiMotif/static/media/youmeandlove.3c6f26310e14db01f4c0.jpg",
     "static/media/int4.jpg": "/DhiMotif/static/media/int4.fbdcee43cf170c590d36.jpg",
-    "static/media/OldeEnglish.ttf": "/DhiMotif/static/media/OldeEnglish.f071803b01362a70c194.ttf",
     "static/media/ach3.jpg": "/DhiMotif/static/media/ach3.f17dcf9883502fd184d7.jpg",
     "static/media/ic3.png": "/DhiMotif/static/media/ic3.e2fa06281e5996909179.png",
     "static/media/int18.jpg": "/DhiMotif/static/media/int18.afe7b743bbb93a42e92a.jpg",
@@ -70,12 +69,12 @@
     "static/media/slick.ttf": "/DhiMotif/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/DhiMotif/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DhiMotif/index.html",
-    "main.3f66f45d.css.map": "/DhiMotif/static/css/main.3f66f45d.css.map",
-    "main.923a3559.js.map": "/DhiMotif/static/js/main.923a3559.js.map",
+    "main.edb9b3bb.css.map": "/DhiMotif/static/css/main.edb9b3bb.css.map",
+    "main.13ea0f45.js.map": "/DhiMotif/static/js/main.13ea0f45.js.map",
     "496.9a07641d.chunk.js.map": "/DhiMotif/static/js/496.9a07641d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f66f45d.css",
-    "static/js/main.923a3559.js"
+    "static/css/main.edb9b3bb.css",
+    "static/js/main.13ea0f45.js"
   ]
 }
