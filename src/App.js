@@ -19,7 +19,7 @@ const App = () => {
       <Background/>
       <Home/>
       <Hobbies/>
-       <Testimonials/>
+      
       <Element name="publications">
       <Publications/>
       </Element>
@@ -29,6 +29,7 @@ const App = () => {
       <Element name="achievements">
       <Achievements/>
       </Element>
+      <Testimonials/>
       <Element name='contact'>
         <Contact/>
       </Element> 

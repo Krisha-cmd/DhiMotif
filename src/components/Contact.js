@@ -1,14 +1,13 @@
 // ContactPage.js
 import React from 'react';
 import './Contact.css';
-import logo from '../images/logo3.png'
+import logo from '../images/dhim.png'
 import { withGoogleMap, GoogleMap } from 'react-google-maps';
 
 
 const Contact = () => {
-  const phoneNumber = '9313967608  ';
+  const phoneNumber = '+91 9313967608  ';
   const emailAddress = '5Dhi0Motif7@gmail.com';
-  const address = '123 Main Street, Cityville, Country';
 
   const handlePhoneClick = () => {
     window.location.href = `tel:${phoneNumber}`;

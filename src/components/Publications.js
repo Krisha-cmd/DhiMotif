@@ -45,7 +45,7 @@ const Publications = () => {
             src={book.image}
             key={index}
             id={"grid-item"+index}
-            className="grid-item"
+            className={`grid-item ${selectedBook === book ? 'selected' : ''}`}
             onClick={() => handleBookClick(book)}
             alt={book.title}
           />
@@ -78,15 +78,16 @@ const Publications = () => {
       <span>Solo Works</span>
         {books1.map((book, index) => (
           <img
-            src={book.image}
-            key={index}
-            id={"grid-item"+index}
-            className="grid-item"
-            onClick={() => handleBookClick(book)}
-            alt={book.title}
+          src={book.image}
+          key={index}
+          id={"grid-item"+index}
+          className={`grid-item ${selectedBook === book ? 'selected' : ''}`}
+          onClick={() => handleBookClick(book)}
+          alt={book.title}
           />
-        ))}
+          ))}
       </div>
+    <div className='click-me'>Click the Books for more information!</div>
     </div>
     </div>
   );

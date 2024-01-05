@@ -33,7 +33,7 @@ import img16 from '../images/int16.jpg'
 import img17 from '../images/int17.jpg'
 import img18 from '../images/int18.jpg'
 import img19 from '../images/int19.jpg'
-import img20 from '../images/int20.jpg'
+// import img20 from '../images/int20.jpg'
 import img21 from '../images/int21.jpg'
 import img22 from '../images/ach22.jpg'
 
@@ -46,6 +46,8 @@ const Designs = () => {
         speed: 500,
         slidesToShow: 3, // Display three images at a time
         slidesToScroll: 1,
+        centerMode: true, // Enable center mode
+     centerPadding: "0",
         
       };
 
@@ -55,6 +57,8 @@ const Designs = () => {
         speed: 500,
         slidesToShow: 2, // Display three images at a time
         slidesToScroll: 1,
+        centerMode: true, // Enable center mode
+    centerPadding: "0",
       };
     
       const designs=[
@@ -65,7 +69,7 @@ const Designs = () => {
       ];
 
       const images = [
-          img22, int2, int4, img5, img6, img7, img8, img9, img10,  img12, img13, img15, img16, img17, img18, img19, img20, img21
+          img22, img15, int2,  int4, img5,img17, img6, img7,  img16,img8, img9, img18, img10, img19, img12, img13, img21
       ];
 
       const sliderRef = useRef(null);
@@ -90,8 +94,6 @@ const Designs = () => {
             Crafting invitations that radiate warmth and welcoming affection involves a thoughtful fusion of design elements. 
             <br/>As a designer, consider the event's theme, opting for warm color palettes like blush and gold, and employing friendly typography.
             <br/> Symbolic touches, such as embracing symbols and wholesome imagery, add depth. Personalization with custom illustrations or monograms enhances the emotional connection. 
-            <br/>Experiment with textures like embossing for a tactile experience. 
-            <br/>In essence, your invitations should transcend paper, becoming tokens that not only inform but envelop recipients in the anticipated warmth and joy of the occasion.
             </div>
         </div>
         <div className='logo-content'>
@@ -100,10 +102,7 @@ const Designs = () => {
             Creating logos that resonate with warmth and approachability demands a strategic blend of design principles. 
             <br/>Begin by understanding the brand's identity and values, selecting a color palette that exudes friendliness. 
             <br/>Employ inviting typography and choose symbols that convey unity and connection, steering clear of overly complex elements. 
-            <br/>Personalize the logo by integrating subtle, meaningful details that reflect the brand's essence. 
-            <br/>Experiment with various design styles, ensuring versatility across platforms. 
-            <br/>In the realm of logo design, simplicity often speaks volumes, and a well-crafted logo can serve as a visual ambassador, radiating the brand's warmth and welcoming spirit.
-            </div>
+           </div>
             <div className="design-slider-container">
             <Slider {...sliderSettings1}>
                 {logos.map((logo, index) => (
@@ -118,7 +117,7 @@ const Designs = () => {
         <Element name="interior-design">
         <div className='interior'>
             <div className='interior-intro'>
-           Interior Designs</div>
+           Interior Designs and Floor Plans</div>
             <div className="interior-container" ref={sliderRef}>
                 {images.map((image,index) => {
                 return (

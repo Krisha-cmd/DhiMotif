@@ -27,22 +27,22 @@ import img2_1 from '../images/dance.jpg'
 import img4_1 from '../images/spectrum.jpeg'
 
 const achievements = [
-  { image: img1_1, image1:img1, title: 'Chess Competition Winner!', description: 'Yes! Along with writing I am also a big chess enthusiast! I have also played and won in chess competitions!' },
-  { image: img2, image1:img2_1, title: 'International Folk Dancing', description: 'Guess what? I love dancing! I am a bharatnatyam dancer and had the opportunity to represent India in kavala Greece and TKB Poland!' },
-    { image: img3, image1:img3, title: 'National Patriotic Competition', description: 'Ding Ding! Guess who was a runner up in a national level patriotic competition? Me! Why not use my writing skills for patriotism?' },
-    { image: img4_1, image1:img4, title: 'Spectrum Budding Writer Award', description: 'I was given this award for my contributions as a writer in 2021. I am really grateful for the opportunity and the recognition provided with it!' },
-    { image: img5_1, image1:img5, title: '2nd In Karate Championship', description: 'Guess what? I love dancing! I am a bharatnatyam dancer and had the opportunity to represent India in kavala Greece and TKB Poland!' },
-    { image: img6, image1:img6, title: 'Immortal Letter Award', description: 'Yes! Along with writing I am also a big chess enthusiast! I have also played and won in chess competitions!' },
-    { image: img7_1, image1:img7, title: 'Degree In Reiki Healing', description: 'Ding Ding! Guess who was a runner up in a national level patriotic competition? Me! Why not use my writing skills for patriotism?' },
-    { image: img8_1, image1:img8, title: 'Best Author Award', description: 'I was given this award for my contributions as a writer in 2021. I am really grateful for the opportunity and the recognition provided with it!' },
-    { image: img9_1, image1:img9, title: 'Tagor Commemorative Award', description: 'Guess what? I love dancing! I am a bharatnatyam dancer and had the opportunity to represent India in kavala Greece and TKB Poland!' },
-    { image: img10, image1:img10, title: 'Litfest Author of the Year 2023', description: 'Yes! Along with writing I am also a big chess enthusiast! I have also played and won in chess competitions!' },
-    { image: img11, image1:img11_1, title: 'Sahitya Mahotsav 2022 ', description: 'Ding Ding! Guess who was a runner up in a national level patriotic competition? Me! Why not use my writing skills for patriotism?' },
-    { image: img12, image1:img12, title: 'World Book Day Award 2022', description: 'I was given this award for my contributions as a writer in 2021. I am really grateful for the opportunity and the recognition provided with it!' },
-    { image: img13, image1:img13_1, title: 'Litfest 2022 Nominations', description: 'Guess what? I love dancing! I am a bharatnatyam dancer and had the opportunity to represent India in kavala Greece and TKB Poland!' },
-    { image: img14, image1:img14, title: 'First Book Publication in 2022', description: 'Yes! Along with writing I am also a big chess enthusiast! I have also played and won in chess competitions!' },
-    { image: img15, image1:img15, title: 'Bharatnatyam Certificate', description: 'Ding Ding! Guess who was a runner up in a national level patriotic competition? Me! Why not use my writing skills for patriotism?' },
-    { image: img16, image1:img16, title: 'Content Writing Internship', description: 'I was given this award for my contributions as a writer in 2021. I am really grateful for the opportunity and the recognition provided with it!' }
+  { image: img1_1, image1:img1, title: 'Chess Competition Winner!',  },
+  { image: img2, image1:img2_1, title: 'International Folk Dancing',  },
+    { image: img3, image1:img3, title: 'National Patriotic Competition',  },
+    { image: img4_1, image1:img4, title: 'Spectrum Budding Writer Award',  },
+    { image: img5_1, image1:img5, title: '2nd In Karate Championship',  },
+    { image: img6, image1:img6, title: 'Immortal Letter Award',  },
+    { image: img7_1, image1:img7, title: 'Degree In Reiki Healing',  },
+    { image: img8_1, image1:img8, title: 'Best Author Award', },
+    { image: img9_1, image1:img9, title: 'Tagor Commemorative Award', },
+    { image: img10, image1:img10, title: 'Litfest Author of the Year 2023',  },
+    { image: img11, image1:img11_1, title: 'Sahitya Mahotsav 2022 ',  },
+    { image: img12, image1:img12, title: 'World Book Day Award 2022',  },
+    { image: img13, image1:img13_1, title: 'Litfest 2022 Nominations',  },
+    { image: img14, image1:img14, title: 'First Book Publication in 2022',  },
+    { image: img15, image1:img15, title: 'Bharatnatyam Certificate',  },
+    { image: img16, image1:img16, title: 'Content Writing Internship',  }
   
 
   ];
@@ -66,12 +66,13 @@ const achievements = [
                 key={index}
               >
                 <img
+                className='grid-items-img'
                   src={achievement.image}
                   alt={achievement.title}
                   onClick={() => handleAchievementClick(achievement)}
                 />
                 <div className="overlay" onClick={() => handleAchievementClick(achievement)}>
-                  {achievement.title}
+                  {achievement.title}<br/> <p className='click'>Click for More Info</p>
                 </div>
               </div>
             ))}
@@ -86,7 +87,6 @@ const achievements = [
                 />
                 <div className="information">
                   <h2>{selectedAchievement.title}</h2>
-                  <p>{selectedAchievement.description}</p>
                 </div>
               </div>
             )}
