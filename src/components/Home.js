@@ -4,6 +4,7 @@ import { useSpring, animated, config } from 'react-spring';
 import { TypeAnimation } from 'react-type-animation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faWhatsapp, faWattpad, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faQuoteLeft, faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import logo from '../images/logo3.png'
 
 const Home = () => {
@@ -13,6 +14,18 @@ const Home = () => {
         to: { y: 25 },
         config: config.molasses,
       });
+
+      
+  const phoneNumber = '9313967608  ';
+  const emailAddress = '5Dhi0Motif7@gmail.com';
+
+      const handlePhoneClick = () => {
+        window.location.href = `tel:${phoneNumber}`;
+      };
+    
+      const handleEmailClick = () => {
+        window.location.href = `mailto:${emailAddress}`;
+      };
 
   return (
     <div className='home'>
@@ -33,10 +46,10 @@ const Home = () => {
             repeat={Infinity}
             />
             <div className="social-media-strip">
-                <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="https://www.instagram.com/lunavatjahnvi/?hl=en" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="https://www.yourquote.in/jahnvi-shah-cv8x8/quotes" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faQuoteLeft} /></a>
+                <a  onClick={handlePhoneClick} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPhone} /></a>
+                <a  onClick={handleEmailClick} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
             </div>
         </div>
         <animated.div  className='home-image'/>

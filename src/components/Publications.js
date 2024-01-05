@@ -15,11 +15,11 @@ const books = [
     { image: img2, title: 'Hey! Dearest Stranger', description: 'Some bonds lie beyond utterances. When a stranger squirms into being an integral part of life. While at times a loved one changes into an outsider. The desired gain and sometimes a startling loss. This is a toll that life gives rise to. Enabling us to discover and evolve through various shades of acquaintances, that is in store for us. It is through this anthology that many co-authors have tried to share such familiarities with the readers.' },
     { image: img3, title: 'Dreamcatchers', description: 'Do you doubt your potential? Yes, it\'s pretty common. Though we are good enough, we might feel worthless at times. That is when we need to boost our confidence. This book is such kind of confidence booster. Dream Catchers is an anthology that emphasize on the importance of self love, self esteem and self confidence. This anthology coveys the idea that insecurities can shatter us from inside but YOU as an individual is important.' },
     { image: img6, title: 'Love you to Infinity', description: 'Love You To Infinity is a book dedicated to Love. It portrays different kinds of love – selflove, romantic love, friends and family’s love. This book is a collection of beautiful write-ups of those writers who are passionate about writing. Each writer has a different way of expressing thoughts. Each writer is creative, talented and unique in their own way. Each writer shows their perspective on love.    ' },
-        { image: img8, title: 'Verse Wizard', description: 'An anthalogy of great work donw by many writers together. ' },
+        { image: img8, title: 'Verse Wizard', description: 'An anthalogy of great work done by many writers together. ' },
 ]
 
     const books1=[{ image: img7, title: 'The Spell in the Dusk', description: 'Hello readers, welcome in my world which I managed to somehow place in this small book in your hand or screen. This world consists of mysteries, horror, love, affection, sorrow, desire and also a world where non living things can speak. Its a mixture of my imagination and fiction. I was able to give a hint of few visions as images in this book which I had while writting in that particular topic. I hope you all enjoy this tour in my world.' },
-    { image: img5, title: 'The lorg for the Consano', description: 'This Book is special! It is my solo book and an upcoming novel!' },
+    { image: img5, title: 'The Lorg for the Consano', description: 'A novel embracing the fantasies of a day dreamer. An amalgam of different species from different worlds spicing the chapters with family full of thriller, suspense, mystery, action and dreams' },
   
   ];
 

@@ -6,8 +6,8 @@ import { withGoogleMap, GoogleMap } from 'react-google-maps';
 
 
 const Contact = () => {
-  const phoneNumber = '+1234567890';
-  const emailAddress = 'your-email@example.com';
+  const phoneNumber = '9313967608  ';
+  const emailAddress = '5Dhi0Motif7@gmail.com';
   const address = '123 Main Street, Cityville, Country';
 
   const handlePhoneClick = () => {
@@ -25,8 +25,7 @@ const Contact = () => {
         <h1>Contact Me</h1>
         <p>Phone: <span onClick={handlePhoneClick}>{phoneNumber}</span></p>
         <p>Email: <span onClick={handleEmailClick}>{emailAddress}</span></p>
-        <p>Address: <a href={`https://www.google.com/maps/place/${encodeURIComponent(address)}`} target="_blank" rel="noopener noreferrer">{address}</a></p>
-        </div>
+       </div>
         <img className='byebye'src={logo}/>
         </div>
     </div>
