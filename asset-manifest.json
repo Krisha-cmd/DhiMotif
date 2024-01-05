@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DhiMotif/static/css/main.6a0c28e1.css",
-    "main.js": "/DhiMotif/static/js/main.ea34c561.js",
+    "main.css": "/DhiMotif/static/css/main.88738392.css",
+    "main.js": "/DhiMotif/static/js/main.c775c10b.js",
     "static/js/496.9a07641d.chunk.js": "/DhiMotif/static/js/496.9a07641d.chunk.js",
     "static/media/avatar.png": "/DhiMotif/static/media/avatar.ef5d41611bd5ee39a11c.png",
     "static/media/spectrum.jpeg": "/DhiMotif/static/media/spectrum.54eb3aa550f7c9e489cf.jpeg",
@@ -9,8 +9,9 @@
     "static/media/ach5.png": "/DhiMotif/static/media/ach5.2981e082f7774e2c7bea.png",
     "static/media/ach11.png": "/DhiMotif/static/media/ach11.b94bf75a45231d185a16.png",
     "static/media/invite7.jpg": "/DhiMotif/static/media/invite7.132ba255c750ec84a04d.jpg",
-    "static/media/logo3.png": "/DhiMotif/static/media/logo3.9b7715c5784c93d59fdd.png",
     "static/media/ach7.png": "/DhiMotif/static/media/ach7.83e8400d3b0d987ade91.png",
+    "static/media/dhim.png": "/DhiMotif/static/media/dhim.ecf6571efdb398c6cc6f.png",
+    "static/media/logo3.png": "/DhiMotif/static/media/logo3.ec86a8cc46d027c9f09d.png",
     "static/media/ach11-1.png": "/DhiMotif/static/media/ach11-1.b543f25e85efda726b8f.png",
     "static/media/ach15.png": "/DhiMotif/static/media/ach15.c2a000120e81a2306456.png",
     "static/media/ach6.png": "/DhiMotif/static/media/ach6.14f947ee141e40a07d54.png",
@@ -42,14 +43,19 @@
     "static/media/consanos.jpg": "/DhiMotif/static/media/consanos.507c8ecc887d7d28208f.jpg",
     "static/media/logo2.jpg": "/DhiMotif/static/media/logo2.76bf174dcb4ea6fe4734.jpg",
     "static/media/ach22.jpg": "/DhiMotif/static/media/ach22.ec7ef80cfd6836a208d3.jpg",
+    "static/media/int10.jpg": "/DhiMotif/static/media/int10.7726ce0bdcd60244e1df.jpg",
     "static/media/logo1.jpg": "/DhiMotif/static/media/logo1.fced5660a9c48eec1661.jpg",
     "static/media/chess.jpg": "/DhiMotif/static/media/chess.dbffd548103afcb31324.jpg",
     "static/media/ach13-1.png": "/DhiMotif/static/media/ach13-1.131753d866106098f037.png",
     "static/media/int7.jpg": "/DhiMotif/static/media/int7.5595b385f2c27f82b786.jpg",
     "static/media/published works.jpg": "/DhiMotif/static/media/published works.e23c1251308cb9886ea8.jpg",
     "static/media/int15.jpg": "/DhiMotif/static/media/int15.d793ddbb5944b4ebb42c.jpg",
+    "static/media/int9.jpg": "/DhiMotif/static/media/int9.7072eda3a48615a70f88.jpg",
     "static/media/logo.svg": "/DhiMotif/static/media/logo.5f67100a395b0a0402e8.svg",
+    "static/media/int13.jpg": "/DhiMotif/static/media/int13.5610ed6161e0f4bbc6b4.jpg",
+    "static/media/int12.jpg": "/DhiMotif/static/media/int12.c783fd9add8dabb9a2a4.jpg",
     "static/media/int2.jpg": "/DhiMotif/static/media/int2.62d8291a716882ed1845.jpg",
+    "static/media/int8.jpg": "/DhiMotif/static/media/int8.80780565e3c73ceffd92.jpg",
     "static/media/int6.jpg": "/DhiMotif/static/media/int6.9c7edeae50f4e29b518b.jpg",
     "static/media/ach8-1.png": "/DhiMotif/static/media/ach8-1.ae750336f2848b0feed4.png",
     "static/media/Wizard.jpg": "/DhiMotif/static/media/Wizard.65ebcd94c96d498d6978.jpg",
@@ -80,12 +86,12 @@
     "static/media/slick.ttf": "/DhiMotif/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/DhiMotif/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DhiMotif/index.html",
-    "main.6a0c28e1.css.map": "/DhiMotif/static/css/main.6a0c28e1.css.map",
-    "main.ea34c561.js.map": "/DhiMotif/static/js/main.ea34c561.js.map",
+    "main.88738392.css.map": "/DhiMotif/static/css/main.88738392.css.map",
+    "main.c775c10b.js.map": "/DhiMotif/static/js/main.c775c10b.js.map",
     "496.9a07641d.chunk.js.map": "/DhiMotif/static/js/496.9a07641d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a0c28e1.css",
-    "static/js/main.ea34c561.js"
+    "static/css/main.88738392.css",
+    "static/js/main.c775c10b.js"
   ]
 }
