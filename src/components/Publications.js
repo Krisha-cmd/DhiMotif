@@ -87,7 +87,7 @@ const Publications = () => {
           />
           ))}
       </div>
-    <div className='click-me'>Click the Books for more information!</div>
+    <div className='click-me'>Click the Books for more Information!</div>
     </div>
     </div>
   );

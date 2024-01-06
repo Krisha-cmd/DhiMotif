@@ -36,7 +36,7 @@
   }
 
 
-  .overlay{
+  .overlaya{
     position: absolute;
     top: 0;
     left: 0;
@@ -79,7 +79,7 @@
   }
 
 
-  .grid-items.selected .overlay{
+  .grid-items.selected .overlaya{
     opacity: 0;
     
   }
@@ -87,7 +87,7 @@
     width: 100%;
   }
 
-  .grid-items:hover .overlay{
+  .grid-items:hover .overlaya{
     opacity: 0;
   }
 
@@ -121,6 +121,15 @@
   }
 
  
+  @media (max-width:1367px) {
+    .grid-container-b{
+      max-width: 50vw;
+    }
+    .selected-achievement-info{
+      max-width: 35%;
+    }
+    
+  }
   
 
 @media (max-width:768px){
@@ -141,7 +150,7 @@
     width: 100%;
     height: 66px;
 
-    .overlay{
+    .overlaya{
       position: absolute;
       top: 0;
       left: 0;
@@ -162,6 +171,7 @@
 
  .selected-achievement-info{
   min-height: 60vh;
+  max-width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,16 +186,29 @@
     width: 100%;
     margin: auto;
     font-family: 'Poppins',monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     h2{
       font-size: 16px;
+      margin: auto;
+      max-width: 100%;
+      text-align: center;
     }
     p{
       font-size: 10px;
     }
   }
 
-  .overlay{
+  .overlaya{
     font-size: 8px;
+
+    .click{
+      margin-top: 8px;
+      font-size: 6px;
+    }
   }
+
+  
 
 }

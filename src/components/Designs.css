@@ -11,6 +11,10 @@
     flex-direction: column;
 }
 
+*:focus {
+    outline: none;
+  }
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -178,6 +182,10 @@
         }
         
     }
+
+    .design-image, .logos-image{
+        cursor: pointer;
+    }
     
     
     
@@ -194,8 +202,68 @@
       }
 
 
+@media (max-width:1367px){
+    .designs-intro{
+        width: 400px;
+        font-size: 10px;
+        overflow: hidden;
+    }
+}
 
-@media (max-width:1080px){
+/* .design-image.zoomed {
+    position: fixed;
+    height: auto;
+    top:20vh;
+    left:20vw;
+    width: auto;
+  } */
+
+  .modal-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .modal-close {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    border: none;
+  }
+  .modal {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:4px solid #e2c550;
+    box-shadow:0 0 20px #000000ae;
+    max-width: 80vw; /* Adjust the max-width as needed */
+    max-height: 80vh; /* Adjust the max-height as needed */
+    overflow: auto;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+
+
+    .overlay{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000000ae;
+        z-index: 50;
+    }
+
+
+
+
+
+@media (max-width:1367px){
     .designs-intro{
         width: 400px;
         font-size: 10px;
@@ -245,6 +313,7 @@
     }
     .design-card{
         height: 160px;
+        margin: auto;
     }
     .designs-intro{
         margin-top: 40px;
@@ -266,6 +335,7 @@
             height: 30%;
             width: 70vw;
             margin: auto;
+            padding: auto;
         }
     }
     .logos-intro{
@@ -275,15 +345,14 @@
         font-size: 10px;
     }
     .logos-card{
-        width: 40vw;
+        width: 100%;
         height: 20vh;
-        margin: 0;
-        margin: 0 50px;
+        margin: auto;
     }
     .logos-image{
-        width:90%;
+        width:92%;
         height: 100%;
-        margin-right: 20px;
+        margin:auto;
         /* object-fit: cover; */
     }
 

@@ -13,7 +13,7 @@ import Contact from './components/Contact.js';
 
 const App = () => {
   return (
-    <div>
+    <div id='#app'>
       <Scrolltotop/>
       <Navbar/>
       <Background/>
