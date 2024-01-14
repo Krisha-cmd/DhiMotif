@@ -30,7 +30,7 @@ import img4_1 from '../images/spectrum.jpeg'
 
 const achievements = [
   { image: img14, image1:img14, title: 'First Book Publication in 2022',  },
-  { image: img11, image1:img11_1, title: 'Sahitya Mahotsav 2022 ',  },
+  { image: img11, image1:img11_1, title: 'Bharat Sahitya Mahotsav 2022 ',  },
   { image: img12, image1:img12, title: 'World Book Day Award 2022',  },
   { image: img13, image1:img13_1, title: 'Litfest 2022 Nominations',  },
   { image: img4_1, image1:img4, title: 'Spectrum Budding Writer Award',  },
