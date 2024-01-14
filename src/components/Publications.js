@@ -61,7 +61,7 @@ const Publications = () => {
                 alt={selectedBook.title}
                 />
                     {selectedBook.link ? (
-        <a href={selectedBook.link}>
+        <a href={selectedBook.link} target='_blank'>
             <button className='buy'>Buy Now</button>
         </a>
     ) : null}
