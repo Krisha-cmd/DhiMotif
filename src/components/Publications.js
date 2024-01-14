@@ -18,8 +18,8 @@ const books = [
         { image: img8, title: 'Verse Wizard', description: 'An anthalogy of great work done by many writers together. ' },
 ]
 
-    const books1=[{ image: img7, title: 'The Spell in the Dusk', description: 'Hello readers, welcome in my world which I managed to somehow place in this small book in your hand or screen. This world consists of mysteries, horror, love, affection, sorrow, desire and also a world where non living things can speak. Its a mixture of my imagination and fiction. I was able to give a hint of few visions as images in this book which I had while writting in that particular topic. I hope you all enjoy this tour in my world.' },
-    { image: img5, title: 'The Lorg for the Consano', description: 'A novel embracing the fantasies of a day dreamer. An amalgam of different species from different worlds spicing the chapters with family full of thriller, suspense, mystery, action and dreams' },
+    const books1=[{ image: img7, link:'https://amzn.eu/d/24Kl0JZ', title: 'The Spell in the Dusk', description: 'Hello readers, welcome in my world which I managed to somehow place in this small book in your hand or screen. This world consists of mysteries, horror, love, affection, sorrow, desire and also a world where non living things can speak. Its a mixture of my imagination and fiction. I was able to give a hint of few visions as images in this book which I had while writting in that particular topic. I hope you all enjoy this tour in my world.' },
+    { image: img5,link:'', title: 'The Lorg for the Consano', description: 'A novel embracing the fantasies of a day dreamer. An amalgam of different species from different worlds spicing the chapters with family full of thriller, suspense, mystery, action and dreams' },
   
   ];
 
@@ -60,7 +60,12 @@ const Publications = () => {
                 src={selectedBook.image}
                 alt={selectedBook.title}
                 />
-            </div>
+                    {selectedBook.link ? (
+        <a href={selectedBook.link}>
+            <button className='buy'>Buy Now</button>
+        </a>
+    ) : null}
+                </div>
             <div className='infomatics'>
                 <span>
               <h2>{selectedBook.title}</h2>
