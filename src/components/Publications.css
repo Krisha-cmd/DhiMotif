@@ -35,7 +35,12 @@
     color: black;
     font-family:'Poppins', monospace ;
     cursor: pointer;
+    transition: filter 0.2s ease-in-out;
   }
+}
+
+.buy:hover{
+  filter: brightness(0.5);
 }
 
 #grid-item6 {
