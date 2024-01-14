@@ -1,5 +1,4 @@
 import React from 'react'
-import { TypeAnimation } from 'react-type-animation';
 import './Hobbies.css'
 import icon1 from '../images/ic1.png'
 import icon2 from '../images/ic2.png'

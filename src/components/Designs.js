@@ -53,7 +53,7 @@ const Designs = () => {
   };
 
   React.useEffect(() => {
-    Modal.setAppElement('#design'); // Replace '#root' with the actual ID of your root element
+    Modal.setAppElement('#design'); 
   }, []);
 
   const sliderSettings = {
@@ -79,7 +79,7 @@ const Designs = () => {
   const designs = [img1, img2, img3, img4, inv5, inv6, inv7];
   const logos = [logo4, logo5, logo1, logo2, logo3, logo6, logo7];
   const images = [
-    img22, img15, int2, int4, img5, img17, img6, img7, img16, img8, img9, img18, img10, img19, img12, img13, img21,
+    img22, img15, img6, int4, img5, img17, int2, img7, img16, img8, img9, img18, img10, img19, img12, img13, img21,
   ];
 
   return (
@@ -121,14 +121,11 @@ const Designs = () => {
             <span>Logo Design</span>
             <br />
             <br />
-            Creating logos that resonate with warmth and approachability demands a strategic blend of
-            design principles.
+            Crafting intricate and detailed logos with a spiritual touch demands a strategic fusion of design principles
             <br />
-            Begin by understanding the brand's identity and values, selecting a color palette that exudes
-            friendliness.
+            Employ inviting typography and select symbols with nuanced spiritual meanings, embracing complexity while maintaining clarity.
             <br />
-            Employ inviting typography and choose symbols that convey unity and connection, steering clear
-            of overly complex elements.
+            These intricate details ensure logos carry a profound sense of spirituality, adding depth and richness to the overall design.
           </div>
           <div className="design-slider-container">
             <Slider {...sliderSettings1}>
@@ -158,7 +155,6 @@ const Designs = () => {
         </div>
       </Element>
 
-      {/* Modal for both design and logo images */}
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}

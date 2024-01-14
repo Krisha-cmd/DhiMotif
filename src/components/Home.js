@@ -3,7 +3,7 @@ import './Home.css'
 import { useSpring, animated, config } from 'react-spring';
 import { TypeAnimation } from 'react-type-animation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faFacebook, faWhatsapp, faWattpad, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faQuoteLeft, faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import logo from '../images/logo3.png'
 

@@ -2,7 +2,6 @@
 import React from 'react';
 import './Contact.css';
 import logo from '../images/dhim.png'
-import { withGoogleMap, GoogleMap } from 'react-google-maps';
 
 
 const Contact = () => {
