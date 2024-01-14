@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DhiMotif/static/css/main.0a94ef11.css",
-    "main.js": "/DhiMotif/static/js/main.99bbc58b.js",
+    "main.css": "/DhiMotif/static/css/main.49e2cc9f.css",
+    "main.js": "/DhiMotif/static/js/main.f314505c.js",
     "static/js/496.9a07641d.chunk.js": "/DhiMotif/static/js/496.9a07641d.chunk.js",
     "static/media/avatar.png": "/DhiMotif/static/media/avatar.ef5d41611bd5ee39a11c.png",
     "static/media/spectrum.jpeg": "/DhiMotif/static/media/spectrum.54eb3aa550f7c9e489cf.jpeg",
@@ -49,12 +49,14 @@
     "static/media/ach22.jpg": "/DhiMotif/static/media/ach22.ec7ef80cfd6836a208d3.jpg",
     "static/media/int10.jpg": "/DhiMotif/static/media/int10.7726ce0bdcd60244e1df.jpg",
     "static/media/chess.jpg": "/DhiMotif/static/media/chess.dbffd548103afcb31324.jpg",
+    "static/media/logo7.jpg": "/DhiMotif/static/media/logo7.533bc7c946d78b07eaba.jpg",
     "static/media/ach13-1.png": "/DhiMotif/static/media/ach13-1.131753d866106098f037.png",
     "static/media/int7.jpg": "/DhiMotif/static/media/int7.5595b385f2c27f82b786.jpg",
     "static/media/published works.jpg": "/DhiMotif/static/media/published works.e23c1251308cb9886ea8.jpg",
     "static/media/int15.jpg": "/DhiMotif/static/media/int15.d793ddbb5944b4ebb42c.jpg",
     "static/media/invite1.jpg": "/DhiMotif/static/media/invite1.04a57697906ee6e59a08.jpg",
     "static/media/int9.jpg": "/DhiMotif/static/media/int9.7072eda3a48615a70f88.jpg",
+    "static/media/test3.jpg": "/DhiMotif/static/media/test3.6d0b8ff1bb476b1e8807.jpg",
     "static/media/logo.svg": "/DhiMotif/static/media/logo.5f67100a395b0a0402e8.svg",
     "static/media/int13.jpg": "/DhiMotif/static/media/int13.5610ed6161e0f4bbc6b4.jpg",
     "static/media/int12.jpg": "/DhiMotif/static/media/int12.c783fd9add8dabb9a2a4.jpg",
@@ -76,23 +78,23 @@
     "static/media/ic2.png": "/DhiMotif/static/media/ic2.f1bd0fd12367464928ad.png",
     "static/media/theperfectmelange.jpg": "/DhiMotif/static/media/theperfectmelange.ecda27139ee41cf40988.jpg",
     "static/media/ic7.png": "/DhiMotif/static/media/ic7.08bda24db51750a7af02.png",
-    "static/media/logo7.jpg": "/DhiMotif/static/media/logo7.6cebdd97cad17d3ebe82.jpg",
     "static/media/ic1.png": "/DhiMotif/static/media/ic1.ce34d43d06a9ea9c9eaf.png",
     "static/media/ic4.png": "/DhiMotif/static/media/ic4.c23c1cf80f01f94060f1.png",
     "static/media/loveyoutoinfinity.jpg": "/DhiMotif/static/media/loveyoutoinfinity.49b587a0f8cda1ffe2ee.jpg",
     "static/media/ic5.png": "/DhiMotif/static/media/ic5.ef000d92210911b1d170.png",
     "static/media/ic9.png": "/DhiMotif/static/media/ic9.b4d7155ac9ba82355146.png",
+    "static/media/test2.jpg": "/DhiMotif/static/media/test2.0cfacf258498fdf50b32.jpg",
     "static/media/slick.svg": "/DhiMotif/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/DhiMotif/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/DhiMotif/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/DhiMotif/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DhiMotif/index.html",
-    "main.0a94ef11.css.map": "/DhiMotif/static/css/main.0a94ef11.css.map",
-    "main.99bbc58b.js.map": "/DhiMotif/static/js/main.99bbc58b.js.map",
+    "main.49e2cc9f.css.map": "/DhiMotif/static/css/main.49e2cc9f.css.map",
+    "main.f314505c.js.map": "/DhiMotif/static/js/main.f314505c.js.map",
     "496.9a07641d.chunk.js.map": "/DhiMotif/static/js/496.9a07641d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a94ef11.css",
-    "static/js/main.99bbc58b.js"
+    "static/css/main.49e2cc9f.css",
+    "static/js/main.f314505c.js"
   ]
 }
