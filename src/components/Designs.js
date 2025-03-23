@@ -36,6 +36,15 @@ import img18 from '../images/int18.jpg';
 import img19 from '../images/int19.jpg';
 import img21 from '../images/int21.jpg';
 import img22 from '../images/ach22.jpg';
+import business1 from '../images/business1.jpg';
+import business2 from '../images/business2.jpg';
+import business3 from '../images/business3.jpg';
+import business4 from '../images/business4.jpg';
+import business5 from '../images/business5.jpg';
+import business6 from '../images/business6.jpg';
+import business7 from '../images/business7.jpg';
+import business8 from '../images/business8.jpg';
+import business9 from '../images/business9.jpg';
 
 const Designs = () => {
   const [zoomed, setZoomed] = useState({});
@@ -76,11 +85,22 @@ const Designs = () => {
     centerPadding: '0',
   };
 
+  const sliderSettings2 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '0',
+  };
+
   const designs = [img1, img2, img3, img4, inv5, inv6, inv7];
   const logos = [logo4, logo5, logo1, logo2, logo3, logo6, logo7];
   const images = [
     img22, img15, img6, int4, img5, img17, int2, img7, img16, img8, img9, img18, img10, img19, img12, img13, img21,
   ];
+  const businesscards=[business1, business2, business3, business4, business5, business6, business7, business8, business9];
 
   return (
     <div className="designs" id="design">
@@ -142,8 +162,38 @@ const Designs = () => {
               ))}
             </Slider>
           </div>
+          
+        </div>
+        <div className="business-card-content">
+          <div className="design-slider-container">
+            <Slider {...sliderSettings2}>
+              {businesscards.map((business, index) => (
+                <div className="business-card" key={index}>
+                  <img
+                    key={index}
+                    onClick={() => handleImageClick(business)}
+                    src={business}
+                    alt="business-cards"
+                    className={`business-image`}
+                  />
+                </div>
+              ))}
+            </Slider>
+          </div>
+          <div className="business-card-intro">
+          <span>Business Card Design</span>
+<br />
+<br />
+Creating an impactful business card requires a harmonious blend of aesthetics and functionality.
+<br />
+Incorporate clean typography, well-balanced layouts, and subtle yet meaningful design elements that reflect your brand identity.
+<br />
+A thoughtfully designed business card not only conveys professionalism but also leaves a lasting impression, making every interaction more memorable.
+          </div>
+          
         </div>
       </Element>
+      
       <Element name="interior-design">
         <div className="interior">
           <div className="interior-intro">Interior Designs and Floor Plans</div>
@@ -171,7 +221,9 @@ const Designs = () => {
         )}
       </Modal>
         <button className="modal-close" onClick={closeModal}>Close Modal</button>
+        
     </div>
+
   );
 };
 
