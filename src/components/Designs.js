@@ -45,6 +45,7 @@ import business6 from '../images/business6.jpg';
 import business7 from '../images/business7.jpg';
 import business8 from '../images/business8.jpg';
 import business9 from '../images/business9.jpg';
+import business10 from '../images/business10.jpg';
 
 const Designs = () => {
   const [zoomed, setZoomed] = useState({});
@@ -100,7 +101,7 @@ const Designs = () => {
   const images = [
     img22, img15, img6, int4, img5, img17, int2, img7, img16, img8, img9, img18, img10, img19, img12, img13, img21,
   ];
-  const businesscards=[business1, business2, business3, business4, business5, business6, business7, business8, business9];
+  const businesscards=[business1, business2, business3, business4, business5, business6, business7, business8, business9, business10];
 
   return (
     <div className="designs" id="design">
