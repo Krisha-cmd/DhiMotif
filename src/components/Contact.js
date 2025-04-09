@@ -7,7 +7,7 @@ import logo from '../images/dhim.png'
 const Contact = () => {
   const phoneNumber = '+91 9737105653  ';
   const emailAddress = '5Dhi0Motif7@gmail.com';
-
+//check
   const handlePhoneClick = () => {
     window.location.href = `tel:${phoneNumber}`;
   };
