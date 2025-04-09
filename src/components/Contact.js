@@ -5,7 +5,7 @@ import logo from '../images/dhim.png'
 
 
 const Contact = () => {
-  const phoneNumber = '+91 9737105654  ';
+  const phoneNumber = '+91 9737105653  ';
   const emailAddress = '5Dhi0Motif7@gmail.com';
 
   const handlePhoneClick = () => {
